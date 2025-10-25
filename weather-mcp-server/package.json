@@ -1,0 +1,21 @@
+{
+  "name": "weather-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "weather-server": "./server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.25.76"
+  }
+}

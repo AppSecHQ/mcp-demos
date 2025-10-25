@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "news": {
+      "command": "./news-mcp-server/venv/bin/python",
+      "args": ["news-mcp-server/news-server.py"]
+    },
+    "weather": {
+      "command": "node",
+      "args": ["weather-mcp-server/server.js"]
+    }
+  }
+}
